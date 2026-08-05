@@ -940,8 +940,8 @@ letter-spacing:2px;
 
 }
 .footer-col p{
-    text-align: center;
-    align-items: center;
+    text-align: left;
+    align-items: flex-start;
     display: flex;
 }
 .footer-social a{
