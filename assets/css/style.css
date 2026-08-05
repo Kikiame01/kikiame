@@ -749,18 +749,8 @@ letter-spacing:2px;
 
 .section-title h2{
     margin:18px 0;
-    color:var(--dark);
+    color:white;
     font-size:clamp(2rem,4vw,3rem);
-}
-
-.section-title h2{
-
-font-size:46px;
-
-margin:15px 0;
-
-color:#071B36;
-
 }
 
 .projects-grid{
