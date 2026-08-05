@@ -265,7 +265,10 @@ cursor:pointer;
 transition:.3s;
 
 }
-
+.contact-item{
+    overflow-y: auto;
+}
+    
 .quote-modal{
     position:fixed;
     inset:0;
@@ -801,6 +804,7 @@ justify-content:center;
 }
 
 .footer-social{
+    overflow-y: auto;
 
     display:flex;
 
@@ -1182,6 +1186,10 @@ width:100%;
     padding:60px 20px 30px;
 
 }
+.footer-social{
+    overflow-y: auto;
+    grid-template-columns: repeat(4,1fr);
+]
 
 .footer-container{
 
