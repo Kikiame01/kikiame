@@ -537,7 +537,9 @@ transition:.3s;
     display: grid;
     gap: 25px;
 }
-
+.section-title p{
+    color: #000;
+}
 .info-card {
     background: #fff;
     padding: 20px;
