@@ -937,6 +937,9 @@ letter-spacing:2px;
 }
 
 .footer-social{
+     justify-content: flex-end;
+
+    flex-wrap: wrap;
 
     display:flex;
 
