@@ -537,9 +537,7 @@ transition:.3s;
     display: grid;
     gap: 25px;
 }
-.section-title p{
-    color: #000;
-}
+
 .info-card {
     background: #fff;
     padding: 20px;
@@ -749,8 +747,12 @@ letter-spacing:2px;
 
 .section-title h2{
     margin:18px 0;
-    color:white;
     font-size:clamp(2rem,4vw,3rem);
+    color: black;
+}
+
+.section-title p{
+    color: #666;
 }
 
 .projects-grid{
@@ -799,7 +801,7 @@ letter-spacing:2px;
     line-height:1.8;
 }
 
-.partners{
+.s{
 
     background:#071B36;
 
@@ -875,7 +877,11 @@ letter-spacing:2px;
     gap:50px;
 
 }
-
+.footer-col p{
+    text-align: left;
+    align-items: flex-start;
+    display: flex;
+}
 .footer-logo{
 
     width:170px;
@@ -939,11 +945,7 @@ letter-spacing:2px;
     margin-top:30px;
 
 }
-.footer-col p{
-    text-align: left;
-    align-items: flex-start;
-    display: flex;
-}
+
 .footer-social a{
 
     width:45px;
