@@ -53,6 +53,9 @@ header{
     height:3px;
 
 }
+.hero-buttons{
+    margin-top:50px;
+}
 .info-card{
     padding:15px;
     border-radius:18px;
@@ -142,6 +145,15 @@ header{
 }
 
 @media (max-width:768px){
+    .quote-modal, .contact-modal{
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+}
 
     body{
         overflow-x:hidden;
@@ -265,10 +277,7 @@ cursor:pointer;
 transition:.3s;
 
 }
-.contact-item{
-    overflow-y: auto;
-}
-    
+
 .quote-modal{
     position:fixed;
     inset:0;
@@ -556,7 +565,7 @@ justify-content:center;
 
     background:#071B36;
 
-    padding:30px 8%;
+    padding:40px 8%;
 
     overflow:hidden;
 
@@ -703,17 +712,19 @@ justify-content:center;
 
 .partners-slider{
 
-    margin:60px 0;
+    margin:10px 0;
 
     padding:20px 0;
 
     overflow:hidden;
+    border-radius: 10px;
+    
 
 }
 
 .partners-track{
 
-    gap:10px;
+    gap:5px;
 
     border-radius: 5px;
 
@@ -723,7 +734,7 @@ justify-content:center;
 
 .partners-track img{
 
-    height:130px;
+    height:200px;
     filter:grayscale(0%);
     width:auto;
 
@@ -811,6 +822,7 @@ justify-content:center;
     gap:15px;
 
     margin-top:30px;
+    grid-template-columns: repeat(4,1fr);
 
 }
 
@@ -971,7 +983,9 @@ header{
     background:#fff;
     border-radius:5px;
 }
-
+.contact-item{
+    overflow-y: auto;
+}
 
 #mobile-menu {
     
@@ -1186,10 +1200,6 @@ width:100%;
     padding:60px 20px 30px;
 
 }
-.footer-social{
-    overflow-y: auto;
-    grid-template-columns: repeat(4,1fr);
-]
 
 .footer-container{
 
@@ -1325,6 +1335,16 @@ width:100%;
     overflow-y: auto;
     overflow-x: hidden;
     overscroll-behavior: contain;
+    
+}
+.quote-modal, .contact-modal{
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
 }
 }
 /*
@@ -1344,7 +1364,7 @@ body.modal-open{
     position: fixed;
     inset: 0;
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
     overscroll-behavior: contain;
@@ -1355,4 +1375,36 @@ section, header, footer{
 }
 img{
     max-width: 100%;
+}
+@media (max-width: 768px) {
+
+    .developers {
+        padding: 100px 18px 70px;
+    }
+
+    .developers-header {
+        margin-bottom: 45px;
+    }
+
+    .developers-header h1 {
+        font-size: 30px;
+    }
+
+    .developers-header p {
+        font-size: 15px;
+    }
+
+    .developers-grid {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .developer-photo {
+        height: 280px;
+    }
+
+    .developer-content {
+        padding: 25px 20px;
+    }
+
 }
