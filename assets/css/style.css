@@ -844,10 +844,6 @@ letter-spacing:2px;
 
     width:auto;
 
-    filter:grayscale(50%);
-
-    opacity:.7;
-
     transition:.35s;
 
 }
