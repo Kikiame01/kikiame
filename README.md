@@ -44,6 +44,10 @@ assets/
 ├── images/
 │
 index.html
+blog.html
+dev.html
+admin.html
+login.html
 README.md
 ```
 
